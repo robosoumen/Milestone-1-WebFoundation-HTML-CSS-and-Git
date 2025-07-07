@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>creating-form</title>
+    <link rel="stylesheet" href="styles/nav.css">
+    <style>
+        form .basic-info label{
+            display: block;
+            margin-top: 15px;
+        }
+    </style>
+</head>
+<body>
+     <header>
+        <nav>
+            <ul>
+                <li><a href="blog(4-2).html">blog</a></li>
+                <li><a href="auto(4-6).html">auto</a></li>
+                <li><a href="video(4-1).html">video</a></li>
+                <li><a href="table(4-4).html">table</a></li>
+                <li><a href="form(4-3).html">form</a></li>
+                <li><a href="flex(4-5).html">flex</a></li>
+                <li><a href="auto(4-7).html">auto-margin</a></li>
+                <li><a href="banner(4-8).html">banner</a></li>
+            </ul>
+        </nav>
+
+    </header>
+    <main>
+        <section>
+            <h3>how to create form</h3>
+            <form>
+                <fieldset class="basic-info">
+                    <legend>basic-info</legend>
+                    <label for="name">your name</label>
+                <input type="text" name="" id="name">
+
+                <label for="email">your email</label>
+                <input type="email" name="" id="email">
+                </fieldset>
+
+                <fieldset>
+                    <legend>pitha information</legend>
+
+                    <input type="radio" name="pitha" id="chitoy">
+                    <label for="chitoy">chitoy pitha</label>
+
+                    <input type="radio" name="pitha" id="vapa">
+                    <label for="vapa">vapa</label>
+
+                    <input type="radio" name="pitha" id="puri">
+                    <label for="puri">dal-puri</label>
+
+                </fieldset>
+
+                <fieldset>
+                    <legend>vorta-selection</legend>
+
+                    <input type="checkbox" name="vorta" id="sarisa">
+                    <label for="sarisa">sarisa-vort</label>
+
+                    <input type="checkbox" name="vorta" id="alu">
+                    <label for="alu">alu-vorta</label>
+
+                    <input type="checkbox" name="vorta" id="morich">
+                    <label for="morich">morich</label>
+                </fieldset>
+                <fieldset>
+                    <legend>extr-informtion</legend>
+                    <textarea cols="50" rows="7" name="" id=""></textarea>
+                </fieldset>
+                
+                <input type="submit" value="submit your information">
+                <input type="reset" value="clear">
+
+            
+            </form>
+        </section>
+
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
