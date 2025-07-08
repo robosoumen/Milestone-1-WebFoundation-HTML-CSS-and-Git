@@ -1,0 +1,19 @@
+.inline{
+    color: chocolate;
+    text-decoration: overline;
+}
+.st{
+    background-color: aliceblue;
+    /* background-image: url("2432846.png"); */
+}
+.s{
+    background-color: aqua;
+    width: 50%;
+    font-family: 'Courier New', Courier, monospace;
+}
+.first{
+    font-style: italic;
+}
+*{
+    margin: 0;
+}
